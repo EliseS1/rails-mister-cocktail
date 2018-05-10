@@ -1,0 +1,10 @@
+<h1>New Dose</h1>
+
+<form action="/doses" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <label for="name">Description: </label>
+  <input type="text" name="name[name]" id="name">
+
+  <input type="submit">
+</form>
+
