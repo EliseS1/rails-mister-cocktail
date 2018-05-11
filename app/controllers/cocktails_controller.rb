@@ -74,21 +74,4 @@ private
  #      params.require(:article).permit(:title, :content)
  #    end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end

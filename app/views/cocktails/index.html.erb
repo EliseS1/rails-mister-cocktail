@@ -2,5 +2,8 @@
 
 <% @cocktails.each do |cocktail| %>
   <p> <%= cocktail.name %> </p>
+<%end%>
 
+<% cocktail.ingredient.each do |ingredient| %>
+  <p> <%= ingredient.name %> </p>
 <% end %>

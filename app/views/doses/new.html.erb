@@ -3,8 +3,9 @@
 <form action="/doses" method="post">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
   <label for="name">Description: </label>
-  <input type="text" name="name[name]" id="name">
-
+  <input type="text" name="description[description]" id="name">
+  <input type="association" name="ingredient" id=ingredient>
   <input type="submit">
+
 </form>
 
